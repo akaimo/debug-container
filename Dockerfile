@@ -10,6 +10,7 @@ RUN apt-get update \
     traceroute \
     mtr \
     tcpdump \
+    nmap \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
 
