@@ -4,6 +4,7 @@ RUN apt-get update \
  && apt-get -y install \
     redis-tools \
     mysql-client \
+    postgresql-client \
     dnsutils \
     telnet \
     net-tools \
