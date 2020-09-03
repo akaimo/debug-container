@@ -1,5 +1,5 @@
 NAME      := debug-container
-REGISTRY  := docker.io/akaimo/$(NAME)
+REGISTRY  := ghcr.io/akaimo/$(NAME)
 VERSION   := latest
 
 .PHONY: build tag push
