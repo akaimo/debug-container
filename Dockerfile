@@ -1,7 +1,7 @@
 FROM golang:latest as builder
 
 RUN set -x \
- && go get github.com/fullstorydev/grpcurl \
+ && go get github.com/fullstorydev/grpcurl/... \
  && go install github.com/fullstorydev/grpcurl/cmd/grpcurl
 
 FROM debian:stretch
